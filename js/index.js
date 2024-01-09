@@ -70,7 +70,9 @@ function displayInfo(userMatches){
 
 
 // Clicking on one of these users should send a request to the
-// User Repos Endpoint and return data about all the repositories for that user.
+// user Repos Endpoint and return data about all the repositories for that user.
+// Using the response from the Users Repos Endpoint, display all the repositories
+// for that user on the page.
 
 function displayRepos(){
     const li = document.querySelectorAll('li');
